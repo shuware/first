@@ -266,3 +266,147 @@ body{
         padding:  0px 50px;
     }
 }
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    color: black;
+    position: relative;
+    
+    top: 80px;  
+}
+.step3 iframe{
+    margin-left: -180px;
+}
+.step4{
+   position: relative;
+   right: 80px;
+}
+.step41 h3{
+    font-size: 2.1em;
+    color: #4875b6;
+    font-family: "Oleo Script", system-ui;
+    margin-top: -10px;
+    
+}
+
+
+
+.g2{
+    margin-top: -10px;
+    
+}
+
+.poll {
+    margin-bottom: 20px;
+    width: 100%;
+    min-width: 400px;
+
+}
+.poll_desc h5 {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+.skill {
+    height: 14px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.skill div {
+    height: 100%;
+
+    display: block;
+    background-color: #4875b6;
+    border-radius: 10px;
+    transition: width 0.8s ease-in-out;
+    position: relative;
+}
+
+  /* Mobile responsiveness */
+@media (max-width: 768px) {
+    .container2 {
+        flex-direction: column;
+        top: 40px; /* Reduced top spacing */
+        gap: 30px;
+    }
+    
+    .step3, .step4 {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .step3 iframe {
+        height: 200px; /* Fixed height for mobile */
+    }
+    
+    .step41 h3 {
+        font-size: 1.8em; /* Slightly smaller on mobile */
+    }
+    
+    .poll {
+        min-width: 100px;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .step41 h3 {
+        font-size: 1.5em;
+    }
+    
+    .poll_desc h5 {
+        font-size: 13px;
+    }
+    
+    .skill {
+        height: 12px;
+    }
+}
+.container3{
+ 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+     margin-top: 74px;
+     font-family: "Roboto", sans-serif;
+  
+  
+  }
+  .step5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .step5 h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5.1vh 0px 0px; 
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #4875b6;
+    font-family: "Oleo Script", system-ui;
+
+}
+.step5 h3 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #9D9898;
+    line-height: 30px;
+    margin-top: -5px;
+    
+}
+
