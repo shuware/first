@@ -410,3 +410,79 @@ body{
     
 }
 
+.container5{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.step71{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    
+  
+}
+.step7{
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+.step7 h4{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #4875b6;
+    font-family: "Oleo Script", system-ui;
+    position: relative;
+    top: -27px;
+    
+}
+.step7  p{
+    font-size: 1em;
+    font-weight: 400;
+    color: #9D9898;
+    line-height: 1.8em;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    top: -70px;
+}
+.container4{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.step61{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    
+  
+}
+.step6{
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+.step6 h4{
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #4875b6;
+    font-family: "Oleo Script", system-ui;
+    position: relative;
+    top: -27px;
+    
+}
+.step6  p{
+    font-size: 1em;
+    font-weight: 400;
+    color: #9D9898;
+    line-height: 1.8em;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    top: -70px;
+}
