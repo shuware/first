@@ -486,3 +486,79 @@ body{
     position: relative;
     top: -70px;
 }
+.container6{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 3em 0em 3em 0em;
+    background: #171717;
+}
+.step81{
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.step811 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  text-align: left;
+ 
+  
+}
+.step811 h4{
+    font-size: 2em;
+    font-weight: 400;
+    color: #4875b6;
+    font-family: "Oleo Script", system-ui;
+}
+.step811 ul li {
+    align-items: flex-start;
+  text-align: left;
+    list-style: none;
+}
+.step811 ul li {
+    
+    
+}
+.step811 ul li a{
+    font-size: 0.95em;
+    font-weight: 300;
+    color: #B5B5B5;
+    text-decoration: none;
+    text-align: left;
+    align-items: flex-start;
+
+}
+.step811 p{
+    font-size: 0.95em;
+    font-weight: 300;
+    color: #B5B5B5;
+    text-decoration: none;
+    
+}
+.step811 p a{
+    font-size: 0.95em;
+    font-weight: 300;
+    color: #B5B5B5;
+    text-decoration: none;
+    
+}
+.step811 form{
+display: flex;
+
+    
+}
+.step811 form input{
+    width: 65%;
+    padding: 0.65em;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    background: none;
+    border: 1px solid #fff;
+
+    
+}
