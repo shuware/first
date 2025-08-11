@@ -71,6 +71,9 @@ body{
     gap: 16px;
     margin-right: 100px;
 }
+#navbar1 {
+    display: none;
+}
 
 .navbar div {
     color: black;
@@ -79,8 +82,25 @@ body{
 }
 .image2{
     display: none;
+   
+    
 }
+
 @media (max-width:  768px){
+    #navbar1 {
+        display: none;
+        position: absolute;
+        background-color: #1D4681;
+        top: 0;
+        z-index: 3;
+        width: 100%;
+        min-height: 400px;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        font-family: "Roboto", sans-serif;
+    }
+    
     .image2{
         display: flex;
         justify-content: flex-end;
